@@ -1,6 +1,6 @@
 // Importer la fonction Router
 import { Router } from 'express';
-import modeleRules from '../validations/validationEntretiens.js'; // Assurez-vous d'importer les règles de validation appropriées
+import modeleRules from '../validations/validationMarques.js'; // Assurez-vous d'importer les règles de validation appropriées
 
 // Importer les fonctions du contrôleur pour les modèles
 import { createModele, deleteModele, getModeleById, getModeles, updateModele } from '../Controller/ModelesController.js';

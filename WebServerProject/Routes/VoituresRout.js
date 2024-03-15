@@ -1,6 +1,6 @@
 // Importer la fonction Router
 import { Router } from 'express';
-import voitureRules from '../validations/validationEntretiens.js'; // Assurez-vous d'importer les règles de validation appropriées
+import voitureRules from '../validations/validationVoitures.js'; // Assurez-vous d'importer les règles de validation appropriées
 
 // Importer les fonctions du contrôleur pour les voitures
 import { createVoiture, deleteVoiture, getVoitureById, getVoitures, updateVoiture } from '../Controller/VoituresController.js';

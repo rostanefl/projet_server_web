@@ -20,7 +20,7 @@ import achatRules from './validations/validationAchats.js'; // Importer les règ
 import ClientRules from './validations/validationClient.js';
 import entretienRules from './validations/validationEntretiens.js'; // Importer les règles de validation des entretiens
 import marqueRules from './validations/validationMarques.js'; // Importer les règles de validation des marques
-import modeleRules from './validations/validationModeles.js'; // Importer les règles de validation des modeles
+import modeleRules from './validations/ValidationModeles.js'; // Importer les règles de validation des modeles
 import proprietaireRules from './validations/validationProprietaires.js'; // Importer les règles de validation des proprietaires
 import reparationRules from './validations/validationReparations.js'; // Importer les règles de validation des reparations
 import RolleRules from './validations/validationRolles.js'; // Importer les règles de validation des caracteristiques
